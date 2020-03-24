@@ -1,19 +1,17 @@
 # snowboy_ros_speech_recognition
 ### Overview
 
-This is a part of the project to recognize words using Snowboy and send the data via ROS.
+This is a part of a team project to recognize words using Snowboy and send the data via ROS.
 
 It works on Jetson Nano Devkit (Ubuntu 18.04 LTS) with ROS Melodic.
 
 
 
-The default supported command list:
+### ROS connection info
 
-1. back
-2. go
-3. left
-4. right
-5. stop
+Detected words are sent as a character. (e.g. the word "go" as 'w')
+
+Default node name is voice_trans and default publisher name is voice_sound
 
 
 
@@ -21,6 +19,29 @@ The default supported command list:
 
 1. Ubuntu 18.04 LTS on Jetson Nano Devkit
 2. ROS Melodic
+3. Snowboy (tested on Version: 1.3.0 (2/19/2018))
+
+
+
+### Usage
+
+`$python voice_trans.py`
+
+For better word detection, you can change sensitivity by replacing sensitivity_list array value in voice_trans.py
+
+For more information about voice recognition, check [Snowboy Github Page](https://github.com/Kitt-AI/snowboy).
+
+
+
+### Command list
+
+| Command | Data |    Personal Modelling File    |
+| :-----: | :--: | :---------------------------: |
+|   go    |  w   |  ./resources/models/go.pmdl   |
+|  back   |  x   | ./resources/models/back.pmdl  |
+|  left   |  a   | ./resources/models/left.pmdl  |
+|  right  |  d   | ./resources/models/right.pmdl |
+|  stop   |  s   | ./resources/models/stop.pmdl  |
 
 
 
