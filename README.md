@@ -35,10 +35,6 @@ For more information about voice recognition, check [Snowboy Github Page](https:
 
 
 
-
-
-
-
 ### Command list
 
 | Command | Data |    Personal Model File (.pmdl)    |
