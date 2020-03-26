@@ -33,7 +33,7 @@ For more information about voice recognition, check [Snowboy Github Page](https:
 
 ⚠️ Caution: Check your ROS server IP setting before use this file.
 
-[^IP Setting]: ROS_MASTER_URI and ROS_HOSTNAME in bash.
+(e.g. ROS_MASTER_URI and ROS_HOSTNAME in bash.)
 
 
 
