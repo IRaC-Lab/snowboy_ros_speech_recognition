@@ -31,9 +31,7 @@ For better word detection, you can change sensitivity by replacing sensitivity_l
 
 For more information about voice recognition, check [Snowboy Github Page](https://github.com/Kitt-AI/snowboy).
 
-⚠️ Caution: Check your ROS server IP setting before use this file.
-
-[^1]: ROS_MASTER_URI and ROS_HOSTNAME in bash.
+⚠️: Check your ROS server IP setting before use this file. (e.g. ROS_MASTER_URI, ROS_HOSTNAME in bash.)
 
 
 
